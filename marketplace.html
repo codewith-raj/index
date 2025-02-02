@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>College Marketplace</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <div class="parallax"></div>
+
+    <header>
+        <h1>MUJ Student Marketplace</h1>
+        <p>Buy & Sell with Fellow Students!</p>
+    </header>
+
+    <main>
+        <section id="add-item">
+            <h2>Sell Your Item</h2>
+            <form id="itemForm">
+                <input type="text" id="itemName" placeholder="Item Name" required>
+                <input type="number" id="itemPrice" placeholder="Price (₹)" required>
+                <input type="file" id="itemImage" accept="image/*">
+                <button type="submit">Add Item</button>
+            </form>
+        </section>
+
+        <section id="marketplace">
+            <h2>Available Items</h2>
+            <div id="itemList"></div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 MUJ Student Marketplace</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
